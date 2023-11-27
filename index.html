@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtel App clone</title>
+    <link rel="shortcut icon" href="./img/fav.webp" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- top section start -->
+
+    <div id="top-section">
+        <ul class="airtel-link">
+            <a href="#" class="airtel-active">For Me</a>
+            <a href="#">For My Business</a>
+            <a href="#">For Investors</a>
+        </ul>
+        <div class="airtel-explore">
+            <img id="explore" src="./img/airtelmenu.png">
+            <a href="#">Expore Airtel <i class="ri-arrow-drop-down-line"></i></a>
+        </div>
+    </div>
+
+    <!-- header section start -->
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img src="./img/airtel-red.svg"></a>
+            <ul class="navlist">
+                <li><a href="#">Airtel Black <i class="ri-arrow-drop-down-line"></i></a></li>
+                <li><a href="#">Prepaid <i class="ri-arrow-drop-down-line"></i></a></li>
+                <li><a href="#">Postpaid <i class="ri-arrow-drop-down-line"></i></a></li>
+                <li><a href="#">Broadband <i class="ri-arrow-drop-down-line"></i></a></li>
+                <li><a href="#">DTH <i class="ri-arrow-drop-down-line"></i></a></li>
+                <li><a href="#">Bank <i class="ri-arrow-drop-down-line"></i></a></li>
+                <li><a href="#">Airtel Finance <i class="ri-arrow-drop-down-line"></i></a></li>
+            </ul>
+            <div class="dropdown">
+                <a href="#" class="account"> Account</a>
+                <div class="dropdown-options">
+                    <a href="#"><i class="ri-login-box-line"></i> Login</a>
+                    <a href="#"><i class="ri-money-dollar-circle-line"></i> Recharge</a>
+                    <a href="#"><i class="ri-question-line"></i> Help</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- home section start -->
+
+    <section class="home" id="home">
+        <div class="slidercontainer">
+            <div class="showSlide fade">
+                <img src="./img/banner/img1.jpg" />
+                <div class="content">
+                    <h1> Wi-Fi like speeds, now on the go. </h1>
+                    <h3>With Airtel 5G Plus. Up to 30x faster</h3>
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="showSlide fade">
+                <img src="./img/banner/img4.jpg" />
+                <div class="content">
+                    <h1> Family of 2. Or Family of 4. </h1>
+                    <h3>Get Airtel Postpaid Family Plan for your special family</h3>
+                    <button>Starting at ₹599</button>
+                </div>
+            </div>
+
+            <div class="showSlide fade">
+                <img src="./img/banner/img3.jpg" />
+                <div class="content">
+                    <h1> Watch TV the HD way! </h1>
+                    <h3>Get life-like picture quality with our HD box at ₹750 ₹2,000</h3>
+                    <button>Order Now</button>
+                </div>
+            </div>
+
+            <!-- Navigation arrows -->
+            <a class="left" onclick="nextSlide(-1)"><i class="ri-arrow-left-line"></i></a>
+            <a class="right" onclick="nextSlide(1)"><i class="ri-arrow-right-line"></i></a>
+        </div>
+    </section>
+
+    <!-- feature section start -->
+
+    <section class="feature" id="feature">
+        <div class="feature-content">
+            <h2>Recharge or pay bills</h2>
+            <div class="feature-text">
+                <a href="#" class="Prepaid"><i class="ri-sim-card-2-line"></i> Prepaid</a>
+                <a href="#"><i class="ri-sim-card-line"></i> Postpaid</a>
+                <a href="#"><img src="./img/satellite-dish.png" height="13" style="margin-right: 5px;">DTH</a>
+                <a href="#"><i class="ri-router-fill"></i> Fiber</a>
+                <a href="#"><img src="./img/black-airtel.png" height="13" style="margin-right: 5px;">Airtel Black</a>
+                <div class="search">
+                    <input type="text" placeholder="Enter mobile number" required>
+                    <button>RECHARGE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- message section start -->
+
+    <div class="section message" id="message">
+        <div class="message-content">
+            <img src="./img/offer-icon.jpg" height="22">
+            <span>Free 2 GB data coupons on select recharges via Thanks app</span>
+            <div class="message-app">
+                <a href="#">GET APP</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section start -->
+
+    <section class="service" id="service">
+        <div class="service-text">
+            <h1>Recommended for you</h1>
+            <div class="card">
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./img/service/img1.jpeg" alt="card-img">
+                        <div class="card-content">
+                            <span class="fiber">FIBER</span>
+                            <h2>Enjoy unlimited wi-fi at <span>₹999</span></h2>
+                            <p>Up to 200 Mbps speed, unlimited calls & OTT apps</p>
+                        </div>
+                        <div class="card-button">
+                            <button>BUY NOW</button>
+                            <P>Learn More</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./img/service/img2.jpg" alt="card-img">
+                        <div class="card-content">
+                            <span class="fiber">POSTPAID</span>
+                            <h2>Get a superior network at just <span>₹499</span></h2>
+                            <p>75 GB data with no daily limit & top OTT apps</p>
+                        </div>
+                        <div class="card-button">
+                            <button>BUY NOW</button>
+                            <P>Learn More</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./img/service/img3.jpeg" alt="card-img">
+                        <div class="card-content">
+                            <span class="fiber">PREPAID</span>
+                            <h2>Enjoy high-speed, seamless network</h2>
+                            <p>Home delivery of SIM & Quick activation</p>
+                        </div>
+                        <div class="card-button">
+                            <button>BUY NOW</button>
+                            <P>Learn More</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- feature new section start -->
+
+    <section class="new-feature" id="new-feature">
+        <div class="feature-heading">
+            <h2>Find the best fiber plan for you</h2>
+            <div class="feature-card">
+                <div class="card-feature">
+                    <span>STEP 1 OF 2</span>
+                    <h2>How many devices are you looking to connect to your wi-fi?</h2>
+                    <p>laptops, TVs, mobiles</p>
+                    <div id="feature-btn">
+                        <button class="btn1">1-5</button>
+                        <button class="btn2">6-10</button>
+                        <button class="btn3">10+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+
+    <section class="footer" id="footer">
+        <div class="footer-section">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h4>Quick Access</h4>
+                    <ul class="footer-list">
+                        <li>Airtel Black Bill Payment</li>
+                        <li> Prepaid Recharge</li>
+                        <li>Postpaid Bill Payment</li>
+                        <li>DTH Recharges</li>
+                        <li>Broadband Payment</li>
+                        <li>Exciting Offers</li>
+                        <li>Personal Loans</li>
+                        <li>Airtel Payments Bank</li>
+                        <li>Airtel Thanks App</li>
+                        <li>Free Sim Delivery</li>
+                        <li> Free Sim Delivery</li>
+                        <li>Terms & Conditions</li>
+                        <li>Airtel Blogs</li>
+                    </ul>
+                </div>
+
+                <div class="footer-text">
+                    <h4>Help At Hand</h4>
+                    <ul class="footer-list">
+                        <li>Find a store</li>
+                        <li>Check Coverage</li>
+                        <li>Ownership Transfer</li>
+                        <li>Manage Your account</li>
+                        <li>ISP Near Me</li>
+                        <li>Wynk Music</li>
+                        <li>Broadband FAQs</li>
+                        <li>Airtel Xstream FAQs</li>
+                        <li>Postpaid FAQs</li>
+                        <li>Stores near me</li>
+                        <li> DTH Consumer Corner</li>
+                        <li>Do not disturb</li>
+                    </ul>
+                </div>
+
+                <div class="footer-text">
+                    <h4>About Airtel</h4>
+                    <ul class="footer-list">
+                        <li>Brand</li>
+                        <li>Career</li>
+                        <li>Partner</li>
+                        <li>Business</li>
+                        <li>About Airtel</li>
+                        <li>Press Release</li>
+                        <li>Investor</li>
+                        <li>Investor Support</li>
+                        <li>Telecom Charter</li>
+                    </ul>
+                </div>
+
+                <div class="footer-text">
+                    <h4>New Connections</h4>
+                    <ul class="footer-list">
+                        <li>Buy DTH New Connection</li>
+                        <li>Buy Prepaid New Connection</li>
+                        <li>Buy Postpaid New Connection</li>
+                        <li>Buy Fiber New Connection</li>
+                        <li>Buy Airtel Black Plan</li>
+                        <li>Buy Xstream Box</li>
+                        <li>Switch to Airtel</li>
+                        <li>International Roaming</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="footer-bottom">
+                <img src="./img/fav.jpg" height="30">
+                <div class="social-icons">
+                    <a href="#" class="get-the-app">Get the app</a>
+                    <img src="./img/app.png" height="20">
+                    <img src="./img/ios.png" height="20">
+                    <a href="#" class="follow">Follow us on</a>
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    <a href="#"><i class="ri-youtube-line"></i></a>
+                    <a href="#"><i class="ri-twitter-line"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                </div>
+                <div class="top-button">
+                    <a href="#">Back To Top <i class="ri-arrow-up-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- copyright section start -->
+
+    <section class="copyright">
+        <div class="copyright-content">
+            <a href="#">2023 Airtel India. All Rights Reserved</a>
+        </div>
+    </section>
+
+
+    <!-- js link -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

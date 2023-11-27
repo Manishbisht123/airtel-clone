@@ -1,0 +1,132 @@
+/*# sourceMappingURL=index.css.map */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+#top-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e8e8eb;
+}
+
+.airtel-link {
+    display: flex;
+    gap: 15px;
+    padding: 10px 5rem;
+}
+
+.airtel-link a {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #696b6f;
+    position: relative;
+}
+
+.airtel-link a:nth-child(1) {
+    color: #e90000;
+    font-weight: 700;
+}
+
+.airtel-link a:hover {
+    color: #e90000;
+}
+
+.airtel-link a::after {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: #e90000;
+}
+
+.airtel-link a:hover::after {
+    width: 100%;
+}
+
+.airtel-explore {
+    display: flex;
+    gap: 10px;
+    padding: 10px 5rem;
+}
+
+.airtel-explore img {
+    height: 14px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+
+.airtel-explore a {
+    font-size: 14px;
+    color: #ff4949;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    padding: 10px 4.6rem;
+    border-bottom: 2px solid #e8e8eb;
+}
+
+.navbar{
+   display: flex;
+   align-self: center;
+   justify-content: space-between;
+}
+
+.navbar img{
+    width: 100px;
+    height: 50px;
+}
+
+
+.navbar .navlist{
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 14px 0;
+}
+
+.navlist li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+}
+
+.navlist li a i{
+    font-size: 16px;
+}
+
+.navlist li a .bx-user-circle{
+   font-size: 23px;
+   font-weight: 400;
+   color: #ff4949;
+}
